@@ -1,19 +1,27 @@
 import data from "../data/dataset1.json";
+import { getPeople, createArray } from "../scripts/helperFunctions";
 
 console.log(data);
 
-const setofpeople = [];
+const setofpeople100 = [];
 
-data.slice([0], [100]).map((person, i) => {
-  setofpeople.push(person);
-});
+getPeople(data, setofpeople100);
 
-console.log(setofpeople);
+createArray(data);
+
+const test = createArray(data);
+
+console.log(test);
 
 const Content = () => {
   return (
     <div className="content">
-      {data && setofpeople.map(({ Naam, ID }) => <p key={ID}>{Naam}</p>)}
+      {data &&
+        setofpeople100.map(({ Naam, ID }) => (
+          <p className="randomName" key={ID}>
+            {Naam}
+          </p>
+        ))}
     </div>
   );
 };

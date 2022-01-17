@@ -5,12 +5,14 @@ body {
   color: $white;
 }
 
-.App {
-}
-
 header {
   display: flex;
   justify-content: center;
+  margin: 3rem 0 4rem 0;
+
+  h1 {
+    margin: 0;
+  }
 }
 
 main {
@@ -20,7 +22,7 @@ main {
 
 main .content {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 2rem 3rem;
 
   p {
