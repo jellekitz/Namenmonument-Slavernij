@@ -1,0 +1,30 @@
+@import "Color.scss";
+
+body {
+  background-color: $brown;
+  color: $white;
+}
+
+.App {
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+main .content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 2rem 3rem;
+
+  p {
+    margin: 0;
+    font-size: 0.8rem;
+  }
+}
