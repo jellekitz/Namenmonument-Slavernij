@@ -3,7 +3,7 @@ import React from "react";
 function Facts() {
   return (
     <div>
-      <h1>Wist je dat...</h1>
+      <h1></h1>
     </div>
   );
 }

@@ -18,7 +18,7 @@ function Nav() {
         </li>
         <li>
           <NavLink to="/zoeken" activeclassname="active">
-            Zoeken
+            Namen van A-Z
           </NavLink>
         </li>
       </ul>
