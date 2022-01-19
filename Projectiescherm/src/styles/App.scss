@@ -1,32 +1,103 @@
 @import "Color.scss";
 
 body {
-  background-color: $brown;
+  background-color: $brown-800;
   color: $white;
 }
 
 header {
   display: flex;
-  justify-content: center;
-  margin: 3rem 0 4rem 0;
+  justify-content: space-around;
+  padding: 8rem 0 4rem 0;
+  text-transform: uppercase;
+  margin: 0px 50px 0px 20px;
+  font-family: "Oswald", sans-serif;
+  line-height: 3rem;
+
+  h1,
+  h2 {
+    font-size: 2rem;
+    margin: 0;
+    max-width: 9rem;
+    text-align: center;
+    color: $title;
+  }
 
   h1 {
-    margin: 0;
+    order: 2;
+  }
+
+  h2:nth-of-type(1) {
+    order: 1;
+  }
+  h2:nth-of-type(2) {
+    order: 3;
   }
 }
 
 main {
-  display: flex;
-  justify-content: center;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0px 0px 0px 0px;
+  background-image: url("../images/bogen.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 main .content {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 2rem 3rem;
+  display: flex;
+  justify-content: center;
+  grid-column-gap: 10rem;
+
+  &__column {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 4rem;
+    font-family: "Montserrat", sans-serif;
+
+    // &:nth-of-type(1) {
+    //   background-color: aqua;
+    // }
+
+    // &:nth-of-type(2) {
+    //   background-color: red;
+    // }
+
+    // &:nth-of-type(3) {
+    //   background-color: green;
+    // }
+  }
 
   p {
     margin: 0;
-    font-size: 0.8rem;
+    min-width: fit-content;
+    font-size: 0.6rem;
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.interface {
+  background-color: $brown-400;
+  padding: 1rem 1rem;
+  bottom: 0;
+  position: fixed;
+
+  &__button {
+    background-color: $brown-800;
+    color: $white;
+    padding: 0.3rem;
+    margin-right: 0.5rem;
+
+    &:last-child {
+      margin-right: 0;
+    }
   }
 }

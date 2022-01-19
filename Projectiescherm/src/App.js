@@ -1,6 +1,7 @@
 import "./styles/App.scss";
 import Title from "./components/Title";
 import Content from "./components/Content";
+import Interface from "./components/Interface";
 
 function App() {
   return (
@@ -11,7 +12,9 @@ function App() {
       <main>
         <Content />
       </main>
+      <div className="overlay"></div>
       <footer>
+        <Interface />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
       </footer>
     </div>
