@@ -13,8 +13,6 @@ const createArray = (data) => {
     const randomNamesIndex = Math.floor(Math.random() * data.length);
     const randomLiIndex = Math.floor(Math.random() * list.length);
 
-    console.log(randomNamesIndex);
-    console.log(randomLiIndex);
     $(list[randomLiIndex]).fadeOut(1500, () => {
       $(list[randomLiIndex]).html(data[randomNamesIndex]);
       $(list[randomLiIndex]).fadeIn(1500);

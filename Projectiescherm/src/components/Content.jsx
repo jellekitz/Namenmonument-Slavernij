@@ -15,13 +15,13 @@ const setofpeople1 = [];
 const setofpeople2 = [];
 const setofpeople3 = [];
 
-getPeople(cleanedData, setofpeople1, 0, 87);
-getPeople(cleanedData, setofpeople2, 88, 175);
-getPeople(cleanedData, setofpeople3, 176, 263);
+getPeople(cleanedData, setofpeople1, 0, 69);
+getPeople(cleanedData, setofpeople2, 69, 138);
+getPeople(cleanedData, setofpeople3, 138, 207);
 
 createArray(cleanedData);
 
-const Content = () => {
+const Content = ({ name, personalName }) => {
   return (
     <div className="content">
       <div className="content__column">
@@ -32,6 +32,7 @@ const Content = () => {
         ))}
       </div>
       <div className="content__column">
+        {name}
         {data &&
           setofpeople2.map((person, id) => (
             <p className="randomName" key={id}>
@@ -40,6 +41,7 @@ const Content = () => {
           ))}
       </div>
       <div className="content__column">
+        {personalName}
         {data &&
           setofpeople3.map((person, id) => (
             <p className="randomName" key={id}>

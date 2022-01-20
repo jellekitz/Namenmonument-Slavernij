@@ -1,18 +1,10 @@
-// import React, { useRef } from "react";
-
-const Interface = () => {
-  //   const textInput = useRef(null);
-
-  //   function handleClick() {
-  //     console.log("test");
-  //   }
-
+const Interface = ({ addName, addPersonalName }) => {
   return (
     <section className="interface">
-      <button className="interface__button interface__button--highlight">
+      <button onClick={addName} className="interface__button">
         Zoek highlight
       </button>
-      <button className="interface__button interface__button--pv-highlight">
+      <button onClick={addPersonalName} className="interface__button">
         Persoonlijk verhaal highlight
       </button>
     </section>
