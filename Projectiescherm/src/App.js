@@ -24,6 +24,7 @@ function App() {
         <>
           <p className="randomName--highlighted-personal">Alima</p>
           <img
+            alt="Alima"
             className="randomName--highlighted-personal__image"
             src={Alima}
           ></img>
@@ -34,7 +35,7 @@ function App() {
 
   return (
     <div className="App">
-      <header>
+      <header className="header">
         <Title />
       </header>
       <main>
