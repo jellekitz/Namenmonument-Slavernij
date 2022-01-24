@@ -1,0 +1,68 @@
+@import "../../Styles/Color.scss";
+
+.facts {
+  background-color: $brown-800;
+  position: absolute;
+  z-index: -3;
+  inset: 0px 0px 0px 0px;
+  background-image: url("../../Images/Facts/picture.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+
+  &__wrapper {
+    margin: 5rem 8rem 2rem 8rem;
+    position: absolute;
+    bottom: 0;
+  }
+
+  &__slider {
+    margin: 0 0 15rem 0;
+  }
+
+  &__slider-item {
+    h2 {
+      font-size: 4rem;
+      font-family: "Oswald", sans-serif;
+      color: $title;
+      position: relative;
+      margin-left: 1rem;
+      &:before {
+        content: " ";
+        top: 22px;
+        left: -1rem;
+        position: absolute;
+        width: 5px;
+        height: 55px;
+        background-color: $title;
+      }
+    }
+    p {
+      font-weight: 300;
+      color: $white;
+      font-size: 2rem;
+      max-width: 50rem;
+    }
+  }
+}
+
+.tns-nav {
+  text-align: center;
+  button {
+    width: 1rem;
+    height: 1rem;
+    margin: 0 1rem 0 0;
+    border-radius: 50%;
+    background-color: $not-active;
+    border: none;
+  }
+
+  button:active {
+    background-color: $active;
+  }
+}
+
+.tns-nav-active {
+  background-color: $active !important;
+}
