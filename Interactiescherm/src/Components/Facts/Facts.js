@@ -54,6 +54,7 @@ const Facts = () => {
               De kans groot is dat <b>jouw stamboom</b> ook verwant is aan de
               slavernij.
             </p>
+            <button>Nieuwsgierig geworden? Zoek dan tussen de namen</button>
           </li>
         </ul>
       </div>
