@@ -5,8 +5,9 @@ body {
   color: $white;
 }
 
-header {
+.header {
   display: flex;
+  position: relative;
   justify-content: space-around;
   padding: 8rem 0 4rem 0;
   text-transform: uppercase;
@@ -32,6 +33,36 @@ header {
   }
   h2:nth-of-type(2) {
     order: 3;
+  }
+
+  &__counter {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 190px;
+    right: 80px;
+
+    &-marker {
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background-color: $brown-600;
+      border-radius: 50%;
+      border: 1px solid $title;
+      left: 0;
+
+      p {
+        margin: -2.5rem 0 0 0;
+        text-align: center;
+      }
+    }
+
+    &-line {
+      width: 200px;
+      height: 1px;
+      background-color: $title;
+      margin-right: 1rem;
+    }
   }
 }
 
