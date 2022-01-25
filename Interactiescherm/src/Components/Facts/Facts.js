@@ -1,5 +1,7 @@
 import * as React from "react";
 import { tns } from "../../../node_modules/tiny-slider/src/tiny-slider";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import PersonalStories from "../PersonalStories/PersonalStories";
 
 const Facts = () => {
   const { useState, useEffect } = React;
@@ -54,7 +56,9 @@ const Facts = () => {
               De kans groot is dat <b>jouw stamboom</b> ook verwant is aan de
               slavernij.
             </p>
-            <button>Nieuwsgierig geworden? Zoek dan tussen de namen</button>
+            <a href="/persoonlijke-verhalen">
+              Nieuwsgierig geworden? Zoek dan tussen de namen
+            </a>
           </li>
         </ul>
       </div>
