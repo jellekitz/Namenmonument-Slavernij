@@ -1,0 +1,60 @@
+@import "../../../Styles/Color.scss";
+
+.story {
+  background-color: #ede4cc;
+  &__hero {
+    height: 100vh;
+    min-height: 600px;
+    background-color: #674f40;
+    background-image: url(/Images/PersonalStories/hero-section-background.png);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    h1 {
+      color: #ede4cd;
+      font-size: 80px;
+      text-align: center;
+    }
+    p {
+      color: #ede4cd;
+      font-size: 1.3em;
+      text-align: center;
+      margin-top: 20px;
+    }
+  }
+  &__section1,
+  &__section2 {
+    padding: 120px 80px;
+    display: flex;
+    align-items: center;
+    img {
+      max-width: 45%;
+    }
+    div {
+      max-width: 550px;
+      margin-left: 80px;
+      a {
+        display: inline-block;
+        text-decoration: none;
+        margin: 3rem 0 0 0;
+        font-size: 1.2rem;
+        font-family: "Montserrat", sans-serif;
+        color: #674f40;
+        padding: 1.4rem 2rem;
+        background-color: $brown-400;
+        text-align: center;
+        font-weight: 400;
+      }
+    }
+    p {
+      color: #674f40;
+      font-size: 1.2em;
+      line-height: 1.5em;
+    }
+  }
+}
