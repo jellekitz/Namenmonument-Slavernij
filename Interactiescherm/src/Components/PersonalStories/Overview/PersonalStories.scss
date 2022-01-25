@@ -30,6 +30,9 @@
   }
   &__list {
     padding: 40px 0;
+    a {
+      text-decoration: none;
+    }
     ul {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
