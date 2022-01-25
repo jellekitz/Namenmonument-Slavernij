@@ -1,7 +1,7 @@
 import React from "react";
 import "./PersonalStories.scss";
 
-function PersonalStories() {
+function PersonalStory() {
   return (
     <div className="wrapper">
       <section className="wrapper__section1">
@@ -15,4 +15,4 @@ function PersonalStories() {
   );
 }
 
-export default PersonalStories;
+export default PersonalStory;

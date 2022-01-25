@@ -1,0 +1,82 @@
+.stories {
+  background-color: #664e3f;
+  padding: 80px 60px;
+  &__top {
+    padding-bottom: 20px;
+    border-bottom: 2px solid #968678;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    input {
+      background-color: white !important;
+      background: url("../../../Images/PersonalStories/search-icon.svg")
+        no-repeat 20px;
+      border-radius: 100px;
+      width: 310px;
+      padding: 0 50px;
+      height: 60px;
+      margin-bottom: 40px;
+      font-size: 1.1em;
+      font-weight: 500;
+      align-self: flex-end;
+    }
+    p {
+      color: #ede4cd;
+      font-size: 1.1em;
+      font-weight: 500;
+      width: 100%;
+      text-align: left;
+    }
+  }
+  &__list {
+    padding: 40px 0;
+    ul {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 2em;
+      li {
+        background-color: #c7b7a3;
+        border-radius: 15px;
+        list-style-type: none;
+        padding: 45px 20px;
+        cursor: pointer;
+        box-shadow: 0 10px 10px #0000001e;
+        h2 {
+          color: #674f40;
+          font-size: 3em;
+        }
+        p {
+          margin-top: 10px;
+          font-weight: 500;
+          font-size: 0.9em;
+          color: #674f40;
+        }
+      }
+    }
+  }
+}
+
+// .wrapper {
+//   &__title {
+//     color: #ede4cd;
+//     font-size: 80px;
+//   }
+//   &__paragraph {
+//     color: #ede4cd;
+//   }
+//   &__section1 {
+//     height: 100vh;
+//     min-height: 600px;
+//     background-color: #674f40;
+//     background-image: url(../../Images/PersonalStories/hero-section-background.png);
+//     background-position: center;
+//     background-size: 80%;
+//     background-repeat: no-repeat;
+//     background-attachment: fixed;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     flex-wrap: wrap;
+//     margin-bottom: 800px;
+//   }
+// }

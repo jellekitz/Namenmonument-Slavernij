@@ -2,7 +2,7 @@ import logo from "./logo.svg";
 import "./App.scss";
 import Nav from "./Components/Navigation/Nav";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import PersonalStories from "./Components/PersonalStories/PersonalStories";
+import PersonalStories from "./Components/PersonalStories/Overview/PersonalStories";
 import Search from "./Components/Search/Search";
 import Facts from "./Components/Facts/Facts";
 
