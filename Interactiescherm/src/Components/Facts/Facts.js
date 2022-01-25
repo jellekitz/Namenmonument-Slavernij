@@ -1,7 +1,7 @@
 import * as React from "react";
 import { tns } from "../../../node_modules/tiny-slider/src/tiny-slider";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import PersonalStories from "../PersonalStories/PersonalStories";
+import PersonalStories from "../PersonalStories/Overview/PersonalStories";
 
 const Facts = () => {
   const { useState, useEffect } = React;
