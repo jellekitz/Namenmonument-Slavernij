@@ -1,2 +1,7 @@
 @import "Color.scss";
 @import "../Components/Facts/Facts.scss";
+@import "../Components/Search/Search.scss";
+
+body {
+  background-color: $brown-800;
+}

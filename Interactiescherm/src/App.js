@@ -15,7 +15,6 @@ function App() {
           <Route path="/persoonlijke-verhalen" element={<PersonalStories />} />
           <Route path="/zoeken" element={<Search />} />
         </Routes>
-        <div className="overlay"></div>
       </div>
     </Router>
   );

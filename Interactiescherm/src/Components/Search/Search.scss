@@ -1,0 +1,118 @@
+.search {
+  background-color: #664e3f;
+  padding: 80px 60px;
+
+  &__area {
+    position: fixed;
+    left: 60px;
+    right: 60px;
+    z-index: 3;
+    background-color: $brown-800;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #968678;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+    &-filter {
+      margin: 0.7rem 1.5rem 0 0;
+      background: url("../../Images/Search/filter.svg");
+      width: 61px;
+      height: 40px;
+    }
+
+    input {
+      background-color: white !important;
+      background: url("../../Images/PersonalStories/search-icon.svg") no-repeat
+        20px;
+      border-radius: 100px;
+      width: 310px;
+      padding: 0 50px;
+      height: 60px;
+      margin-bottom: 40px;
+      font-size: 1.1em;
+      font-weight: 500;
+      align-self: flex-end;
+    }
+
+    &-list {
+      width: 100%;
+      font-family: "Montserrat", sans-serif;
+      font-weight: bold;
+      font-size: 1.5rem;
+      display: flex;
+      list-style: none;
+      justify-content: space-around;
+      align-items: baseline;
+      a {
+        text-decoration: none;
+        color: $white;
+        opacity: 50%;
+        transition: 0.2s;
+
+        &:hover {
+          opacity: 100%;
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+
+  &__list {
+    padding: 180px 0;
+    font-family: "Montserrat", sans-serif;
+    ul {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 0.5rem 2em;
+      color: $white;
+      list-style: none;
+      li {
+        // cursor: pointer;
+      }
+    }
+  }
+}
+
+.zoom {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  font-family: "Montserrat", sans-serif;
+  color: $white;
+  text-align: center;
+
+  &__plus {
+    max-width: 3.5rem;
+    font-size: 2.5rem;
+    background-color: $brown-600;
+    padding: 0.15rem 1rem;
+    border-radius: 15px;
+    margin: 0 auto 1rem auto;
+    cursor: pointer;
+  }
+
+  &__min {
+    max-width: 3.5rem;
+    font-size: 2.5rem;
+    background-color: $brown-600;
+    padding: 0 1rem 0.3rem 1rem;
+    border-radius: 15px;
+    margin: 0 auto 1rem auto;
+    cursor: pointer;
+  }
+
+  &__text {
+    max-width: 6rem;
+  }
+}
+
+.overlay {
+  position: fixed;
+  background-color: $brown-800;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 200px;
+  z-index: 1;
+}
