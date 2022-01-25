@@ -8,15 +8,14 @@ body {
 .header {
   display: flex;
   position: relative;
-  justify-content: space-around;
-  padding: 8rem 0 4rem 0;
+  justify-content: center;
+  padding: 8rem 0 5rem 0;
   text-transform: uppercase;
-  margin: 0px 50px 0px 20px;
+  margin: 0px 0px 0px 0px;
   font-family: "Oswald", sans-serif;
   line-height: 3rem;
 
-  h1,
-  h2 {
+  h1 {
     font-size: 2rem;
     margin: 0;
     max-width: 9rem;
@@ -39,8 +38,9 @@ body {
     position: absolute;
     display: flex;
     align-items: center;
-    top: 190px;
-    right: 80px;
+    top: 170px;
+    right: 41%;
+    color: $title;
 
     &-marker {
       position: absolute;
@@ -134,7 +134,7 @@ footer {
     &__image {
       position: fixed;
       width: 30%;
-      bottom: -20px;
+      bottom: -100px;
       z-index: 0;
       right: -50%;
       animation: slide 2s forwards;
