@@ -1,6 +1,6 @@
 import "./styles/App.scss";
 import React, { useState } from "react";
-import Alima from "./images/Alima.svg";
+import Alima from "./images/Alima.png";
 import Title from "./components/Title";
 import Content from "./components/Content";
 import Interface from "./components/Interface";
