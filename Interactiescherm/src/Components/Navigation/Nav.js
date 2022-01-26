@@ -7,7 +7,7 @@ function Nav() {
     <nav>
       <ul>
         <li>
-          <NavLink to="/wistjedat" activeclassname="active">
+          <NavLink to="/" activeclassname="active">
             Wist je dat...
           </NavLink>
         </li>
