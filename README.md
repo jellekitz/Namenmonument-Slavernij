@@ -6,3 +6,5 @@ Dit is de Readme van het Information Design project voor het Namenmonument Slave
 Ysabella Vargas Reyes, Jelle Kitzen, Bo Heins en Ravi Stil | 02-12-2021 | Information Design: Teamproject
 
 <br/>
+
+![Intro Image](https://github.com/stilravi/Frontend-Applications/blob/main/_wiki/00-intro.png)
