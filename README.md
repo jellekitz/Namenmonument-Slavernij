@@ -58,6 +58,11 @@ Vervolgens kun je in het mapje "Projectiescherm" of "Interactiescherm" `npm inst
 
 ## Bronnen
 
+- [React JS Library]()
+- [Tropenmuseum Amsterdam]()
+- Datasets van het Tropenmuseum
+- Technische hulp van docenten en medestudenten
+
 <br/>
 
 ## License
