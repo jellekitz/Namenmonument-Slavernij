@@ -2,6 +2,24 @@
 
 .story {
   background-color: #ede4cc;
+  p {
+    color: #674f40;
+    font-size: 1.2em;
+    line-height: 1.5em;
+  }
+  a {
+    display: inline-block;
+    text-decoration: none;
+    margin: 3rem 0 0 0;
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    color: #674f40;
+    padding: 1.4rem 2rem;
+    background-color: $brown-400;
+    text-align: center;
+    font-weight: 400;
+    box-shadow: 0 6px 10px #0000001e;
+  }
   &__hero {
     height: 100vh;
     min-height: 600px;
@@ -27,8 +45,7 @@
       margin-top: 20px;
     }
   }
-  &__section1,
-  &__section2 {
+  &__section1 {
     padding: 120px 80px;
     display: flex;
     align-items: center;
@@ -38,23 +55,34 @@
     div {
       max-width: 550px;
       margin-left: 80px;
-      a {
-        display: inline-block;
-        text-decoration: none;
-        margin: 3rem 0 0 0;
-        font-size: 1.2rem;
-        font-family: "Montserrat", sans-serif;
-        color: #674f40;
-        padding: 1.4rem 2rem;
-        background-color: $brown-400;
-        text-align: center;
-        font-weight: 400;
-      }
     }
-    p {
-      color: #674f40;
-      font-size: 1.2em;
-      line-height: 1.5em;
+  }
+  &__section2 {
+    padding: 60px 80px;
+    display: flex;
+    align-items: center;
+    img {
+      max-width: 40%;
+    }
+    div {
+      max-width: 550px;
+      margin-right: 120px;
+    }
+  }
+  &__section3 {
+    min-height: 600px;
+    position: relative;
+    img {
+      width: 80%;
+      display: block;
+      margin: auto;
+    }
+    a {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 80px;
+      z-index: 99;
     }
   }
 }
