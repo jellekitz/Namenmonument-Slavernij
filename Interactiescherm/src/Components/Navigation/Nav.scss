@@ -10,10 +10,10 @@ nav {
       list-style-type: none;
       margin-left: 20px;
       a {
-        color: white;
+        color: $white;
         text-decoration: none;
         font-family: "Montserrat", sans-serif;
-        background-color: #968678;
+        background-color: $brown-600;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
         padding: 16px 35px;
@@ -22,7 +22,7 @@ nav {
         transition: 0.2s ease;
       }
       a.active {
-        color: #ede4cd;
+        color: $brown-200;
         font-weight: 600;
         font-size: 1.2em;
         padding: 20px 35px;
