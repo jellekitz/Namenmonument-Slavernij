@@ -6,9 +6,9 @@
 # testing
 /coverage
 
-#data
-/data
-dataset1.json
+# #data
+# /data
+# dataset1.json
 
 # production
 /build
