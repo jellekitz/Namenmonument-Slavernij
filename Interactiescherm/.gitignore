@@ -7,8 +7,8 @@
 /coverage
 
 #data
-/data
-dataset1.json
+# /data
+# dataset1.json
 
 # production
 /build
