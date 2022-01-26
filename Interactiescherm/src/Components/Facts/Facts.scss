@@ -1,11 +1,11 @@
-@import "../../Styles/Color.scss";
+@import "../../styles/Color.scss";
 
 .facts {
   background-color: $brown-800;
   position: absolute;
   z-index: -3;
   inset: 0px 0px 0px 0px;
-  background-image: url("../../Images/Facts/picture.png");
+  background-image: url("../../images/facts/picture.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;

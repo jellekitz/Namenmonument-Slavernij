@@ -1,12 +1,12 @@
-import "./Styles/App.scss";
-import Nav from "./Components/Navigation/Nav";
+import "./styles/App.scss";
+import Nav from "./components/navigation/Nav";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import PersonalStories from "./Components/PersonalStories/Overview/PersonalStories";
-import Search from "./Components/Search/Search";
-import Facts from "./Components/Facts/Facts";
-import Story from "./Components/PersonalStories/Story/Story";
+import PersonalStories from "./components/personalStories/overview/PersonalStories";
+import Search from "./components/search/Search";
+import Facts from "./components/facts/Facts";
+import Story from "./components/personalStories/story/Story";
 
-function App() {
+const App = () => {
   return (
     <Router>
       <div className="App">
@@ -20,6 +20,6 @@ function App() {
       </div>
     </Router>
   );
-}
+};
 
 export default App;

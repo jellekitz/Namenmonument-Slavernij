@@ -1,5 +1,4 @@
 import React from "react";
-import "./PersonalStories.scss";
 
 function PersonalStory() {
   return (

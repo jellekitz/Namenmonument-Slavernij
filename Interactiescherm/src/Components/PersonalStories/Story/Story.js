@@ -1,8 +1,7 @@
 import React, { useEffect } from "react";
-import "./Story.scss";
-import womenImage from "../../../Images/PersonalStories/two-women.png";
-import manImage from "../../../Images/PersonalStories/man.png";
-import footerImage from "../../../Images/PersonalStories/footer-image.png";
+import womenImage from "../../../images/personalStories/two-women.png";
+import manImage from "../../../images/personalStories/man.png";
+import footerImage from "../../../images/personalStories/footer-image.png";
 import "aos/dist/aos.css";
 import Aos from "aos";
 

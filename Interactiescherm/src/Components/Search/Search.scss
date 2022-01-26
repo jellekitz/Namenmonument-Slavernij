@@ -1,5 +1,7 @@
+@import "../../styles/Color.scss";
+
 .search {
-  background-color: #664e3f;
+  background-color: $brown-800;
   padding: 80px 60px;
 
   &__area {
@@ -9,21 +11,21 @@
     z-index: 3;
     background-color: $brown-800;
     padding-bottom: 20px;
-    border-bottom: 2px solid #968678;
+    border-bottom: 2px solid $brown-600;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
 
     &-filter {
       margin: 0.7rem 1.5rem 0 0;
-      background: url("../../Images/Search/filter.svg");
+      background: url("../../images/search/filter.svg");
       width: 61px;
       height: 40px;
     }
 
     input {
-      background-color: white !important;
-      background: url("../../Images/PersonalStories/search-icon.svg") no-repeat
+      background-color: $white !important;
+      background: url("../../images/personalStories/search-icon.svg") no-repeat
         20px;
       border-radius: 100px;
       width: 310px;
@@ -67,9 +69,6 @@
       grid-gap: 0.5rem 2em;
       color: $white;
       list-style: none;
-      li {
-        // cursor: pointer;
-      }
     }
   }
 }

@@ -1,6 +1,9 @@
 @import "Color.scss";
-@import "../Components/Facts/Facts.scss";
-@import "../Components/Search/Search.scss";
+@import "../components/facts/Facts.scss";
+@import "../components/navigation/Nav.scss";
+@import "../components/personalStories/overview/PersonalStories.scss";
+@import "../components/personalStories/story/Story.scss";
+@import "../components/search/Search.scss";
 
 body {
   background-color: $brown-800;

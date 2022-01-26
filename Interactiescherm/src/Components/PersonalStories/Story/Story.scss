@@ -1,9 +1,9 @@
-@import "../../../Styles/Color.scss";
+@import "../../../styles/Color.scss";
 
 .story {
   background-color: #ede4cc;
   p {
-    color: #674f40;
+    color: $brown-800;
     font-size: 1.2em;
     line-height: 1.5em;
   }
@@ -13,7 +13,7 @@
     margin: 3rem 0 0 0;
     font-size: 1.2rem;
     font-family: "Montserrat", sans-serif;
-    color: #674f40;
+    color: $brown-800;
     padding: 1.4rem 2rem;
     background-color: $brown-400;
     text-align: center;
@@ -23,8 +23,8 @@
   &__hero {
     height: 100vh;
     min-height: 600px;
-    background-color: #674f40;
-    background-image: url(/Images/PersonalStories/hero-section-background.png);
+    background-color: $brown-800;
+    background-image: url("../../../images/personalStories/hero-section-background.png");
     background-position: center;
     background-size: 80%;
     background-repeat: no-repeat;
@@ -34,12 +34,12 @@
     justify-content: center;
     flex-wrap: wrap;
     h1 {
-      color: #ede4cd;
+      color: $brown-200;
       font-size: 80px;
       text-align: center;
     }
     p {
-      color: #ede4cd;
+      color: $brown-200;
       font-size: 1.3em;
       text-align: center;
       margin-top: 20px;

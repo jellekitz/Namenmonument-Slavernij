@@ -1,12 +1,12 @@
 import React from "react";
-import data from "../../Data/dataset1.json";
-import $ from "jquery";
+import data from "../../data/dataset1.json";
+
 import {
   deleteAfterDash,
   deleteAfterSpace,
   unkownName,
   getNamesByLetter,
-} from "../../Scripts/helperFunctions";
+} from "../../scripts/helperFunctions";
 
 const cleaningData = deleteAfterDash(data);
 const cleaningData2 = deleteAfterSpace(cleaningData);

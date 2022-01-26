@@ -1,5 +1,4 @@
 import React from "react";
-import "../Overview/PersonalStories.scss";
 import StoryTile from "./StoryTile";
 
 function PersonalStories() {
