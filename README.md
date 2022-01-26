@@ -5,6 +5,8 @@
 Dit is de Readme van het Information Design project voor het Namenmonument Slavernij in het Tropenmuseum. Wij hebben aan dit project gewerkt van 13 december 2021 tot en met 27 januari 2022. <br/><br/>
 Ysabella Vargas Reyes, Jelle Kitzen, Bo Heins en Ravi Stil | 27-01-2022 | Information Design: Teamproject
 
+<br/>
+
 ![Intro Image](https://github.com/jellekitz/Namenmonument-Slavernij/blob/main/Interactiescherm/src/Images/Wiki/wiki-hero.png)
 
 <br/>
@@ -36,9 +38,21 @@ Voor dit project hadden we 5 weken de tijd. Als team zijn we de eerste twee weke
 
 Lorem ipsum Voor dit project hadden we 5 weken de tijd. Als team zijn we de eerste twee weken hard aan de slag gegaan om een concept te bedenken. De andere 3 weken was het doel het concept te visualiseren en volledig vorm te geven om zo tot een mooi eindproduct te komen.
 
+### React Library
+
+Wij hebben ervoor gekozen om dit project te maken in een JavaScript Framework. Hierbij hebben wij gekozen voor React. React is een JavaScript Framework (noemen zichzelf een library) wat ervoor zorgt dat je onder andere elementen dynamisch kan renderen op de webpagina waardoor bijvoorbeeld refreshen niet meer nodig is. Natuurlijk zijn er veel meer voordelen bij het gebruiken van React en daarom verwijs ik je graag door naar de documentatie van React op [deze pagina](https://reactjs.org/).
+
 <br/>
 
 ## Instalatie
+
+Om dit project binnen te halen kan deze Repository gecloned worden naar je eigen Device.
+
+```shell
+$git clone https://github.com/jellekitz/Namenmonument-Slavernij.git
+```
+
+Vervolgens kun je in het mapje "Projectiescherm" of "Interactiescherm" `npm install` doen om vervolgens het project op te zetten met `npm start`
 
 <br/>
 
@@ -47,3 +61,7 @@ Lorem ipsum Voor dit project hadden we 5 weken de tijd. Als team zijn we de eers
 <br/>
 
 ## License
+
+Auteur: Jelle Kitzen & Ravi Stil - 2022
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
