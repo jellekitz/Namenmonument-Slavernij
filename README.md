@@ -15,7 +15,8 @@ Ysabella Vargas Reyes, Jelle Kitzen, Bo Heins en Ravi Stil | 27-01-2022 | Inform
 
 - [Opdracht](#Opdracht)
 - [Data](#Data)
-  - [Dataset Tropenmuseum](#Dataset-Tropenmuseum])
+  - [Dataset Tropenmuseum](#Dataset-Tropenmuseum)
+  - [React Library](#React-Library)
 - [Instalatie](#Instalatie)
 - [Bronnen](#Bronnen)
 - [License](#License)
@@ -36,7 +37,7 @@ Voor dit project hadden we 5 weken de tijd. Als team zijn we de eerste twee weke
 
 ### Dataset Tropenmuseum
 
-Lorem ipsum Voor dit project hadden we 5 weken de tijd. Als team zijn we de eerste twee weken hard aan de slag gegaan om een concept te bedenken. De andere 3 weken was het doel het concept te visualiseren en volledig vorm te geven om zo tot een mooi eindproduct te komen.
+Lorem ipsum...
 
 ### React Library
 
